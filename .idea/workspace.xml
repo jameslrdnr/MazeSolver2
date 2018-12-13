@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4872660c-5d3b-43e7-9b6d-6ad5368ecc97" name="Default" comment="" />
+    <list default="true" id="4872660c-5d3b-43e7-9b6d-6ad5368ecc97" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MazeFileParser.java" afterPath="$PROJECT_DIR$/src/MazeFileParser.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,24 +18,25 @@
       <file leaf-file-name="MazeFileParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MazeFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="280">
+              <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#ImageParser#0" expanded="false" />
+                <element signature="class#MazeFileParser#0" expanded="false" />
+                <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+                <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+                <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+                <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+                <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+                <element signature="e#3771#3777#0" expanded="true" />
+                <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+                <element signature="e#4448#4470#0" expanded="true" />
                 <element signature="class#Node#0" expanded="false" />
                 <element signature="class#RightSolver#0" expanded="false" />
+                <element signature="e#7487#7493#0" expanded="true" />
+                <element signature="class#AStarSolver#0" expanded="false" />
+                <element signature="e#18175#18181#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MazeSolver2.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MazeSolver2.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -45,6 +49,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -69,6 +76,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -86,12 +94,18 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MazeSolver2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MazeSolver2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MazeSolver2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MazeSolver2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MazeSolver2" type="b2602c69:ProjectViewProjectNode" />
@@ -109,15 +123,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -141,7 +155,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MazeFileParser" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="TestPic.gif TestPic2.gif TestPic3.gif TestPic4.gif" />
+      <option name="PROGRAM_PARAMETERS" value="TestPic.gif TestPic2.gif TestPic3.gif TestPic4.gif TestPic5.gif" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -255,25 +269,27 @@
       <workItem from="1512970946931" duration="6977000" />
       <workItem from="1513704552338" duration="1168000" />
       <workItem from="1514617912973" duration="256000" />
-      <workItem from="1544740624723" duration="200000" />
+      <workItem from="1544740624723" duration="593000" />
+      <workItem from="1544742474521" duration="1293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29164000" />
+    <option name="totallyTimeSpent" value="30850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2529412" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25764707" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -289,7 +305,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -298,11 +313,15 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -313,9 +332,52 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeSolver2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MazeFileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
+            <element signature="class#Node#0" expanded="false" />
+            <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -341,9 +403,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -364,9 +437,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -377,9 +461,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -396,9 +491,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,9 +518,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -428,9 +545,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -463,22 +591,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeSolver2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileMaze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestPic.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -489,27 +601,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestPic3.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestPic4.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/AStar : TestPic.gif - Output">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/RightSolve : TestPic.gif - Output">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/RightSolve : TestPic3.gif - Output">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -529,15 +626,67 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/RightSolve : TestPic3.gif - Output">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/AStar : TestPic.gif - Output">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestPic3.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileMaze.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeSolver2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/AStar : TestPic5.gif - Output">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestPic5.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MazeFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="280">
+          <caret line="156" column="27" lean-forward="true" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#ImageParser#0" expanded="false" />
+            <element signature="class#MazeFileParser#0" expanded="false" />
+            <element signature="method#main#0;class#MazeFileParser#0" expanded="false" />
+            <element signature="method#callSolver#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#printWallMap#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#createFinalWallMapImg#0;class#RunnableMain#0" expanded="false" />
+            <element signature="method#AStarToStackConverter#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#3771#3777#0" expanded="true" />
+            <element signature="method#findNodeInList#0;class#RunnableMain#0" expanded="false" />
+            <element signature="e#4448#4470#0" expanded="true" />
             <element signature="class#Node#0" expanded="false" />
             <element signature="class#RightSolver#0" expanded="false" />
+            <element signature="e#7487#7493#0" expanded="true" />
+            <element signature="class#AStarSolver#0" expanded="false" />
+            <element signature="e#18175#18181#0" expanded="true" />
           </folding>
         </state>
       </provider>
