@@ -11,10 +11,11 @@ public class MazeFileParser {
 
     public static void main(String[] args){
         //ImageParser imgParse = new ImageParser("TestPic.gif");
-        for(String s : args) {
+        /*for(String s : args) {
             RunnableMain runner = new RunnableMain(s);
             runner.callSolver("AStar");
-        }
+        }*/
+        MazeGenerator mazeGen = new MazeGenerator(10, 10);
     }
 
 }
